@@ -7,8 +7,9 @@ Tool Termux gọn nhẹ cho **1 client Roblox** (mặc định `com.roblox.clien
 Không cần cài thư viện Python ngoài (dùng thư viện chuẩn Python):
 
 ```sh
-pkg install -y python termux-am
-cd ~/Anya-Client-Launch
+pkg update -y && pkg install -y openssl ca-certificates python termux-am git
+git clone https://github.com/Anyabloxtraicay/Anya-Tool.git ~/Anya-Tool
+cd ~/Anya-Tool
 python launch.py
 ```
 
